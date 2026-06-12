@@ -1,6 +1,17 @@
 :root{
+    --darkgreen:#43A046;
+    --naturalgrey:#717171;
+    --naturalwhite:#FFFFFF;
+    --silver:#F5F7FA;
     --primarycolor:#4CAF4F;
     --standardcolor:#18191F;
+    --greycolor:#E0E0E0;
+}
+.bgsilver{
+    background-color: var(--naturalwhite);
+}
+.green{
+    color: var(--darkgreen);
 }
 .blackcolor{
     color:var(--standardcolor)
@@ -10,7 +21,8 @@
 }
 .textgreen:hover{
     background-color:var(--primarycolor);
-    color: white;
+    color: var(--naturalwhite);
+   
 }
 .bggreen{
     background-color: var(--primarycolor);
@@ -18,5 +30,19 @@
 
 .bggreen:hover{
     background-color: var(--primarycolor);
-    color: white;
+    color: var(--naturalwhite);
+    transform: translateY(-2px);
+}
+.bggreen:active{
+    background-color: var(--primarycolor);
+    color:black;
+     transform: translateY(0); 
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.shadow{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+.nav-link:hover{
+color: green;
+font-style: italic;
 }
