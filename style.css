@@ -7,6 +7,28 @@
     --standardcolor:#18191F;
     --greycolor:#E0E0E0;
 }
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter_18pt-SemiBold.ttf);
+    font-family: inter1;
+    src: url(fonts/Inter_18pt-Medium.ttf);
+    font-family: inter2;
+    src: url(fonts/Inter_24pt-Regular.ttf);
+    font-family: inter3;
+    src: url(fonts/Inter_18pt-Bold.ttf);
+}
+.font{
+    font-family: inter;
+}
+.font1{
+    font-family: inter1;
+}
+.font2{
+    font-family: inter2;
+}
+.font3{
+    font-family: inter3;
+}
 .bgsilver{
     background-color: var(--naturalwhite);
 }
@@ -27,7 +49,9 @@
 .bggreen{
     background-color: var(--primarycolor);
 }
-
+.bg-silver{
+background-color: var(--silver);
+}
 .bggreen:hover{
     background-color: var(--primarycolor);
     color: var(--naturalwhite);
@@ -45,4 +69,8 @@
 .nav-link:hover{
 color: green;
 font-style: italic;
+}
+
+@media screen and (max-width:576px) {
+    .size:25px;
 }
